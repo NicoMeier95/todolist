@@ -1,0 +1,80 @@
+/*fondo = #eeeade;
+contenedor = #c5b399;
+texto = #4c3f37;
+button= #847767;
+*/
+
+html,
+body {
+    background-color: #eeeade;
+    text-align: center;
+    color: #4c3f37;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 62.5%;
+}
+
+h1 {
+    font-size: 5rem;
+    text-transform: capitalize;
+    margin-top: 3rem;
+}
+
+.container {
+    width: 60%;
+    background-color: #c5b399;
+    margin: 0 auto;
+    margin-top: 12rem;
+    padding: 3rem 6.5rem 3rem 5rem;
+    border-radius: 2.5rem;
+}
+
+#add {
+    background-color: #847767;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #eeeade;
+    padding: 1rem 4rem;
+    margin-top: 3.5rem;
+    margin-left: 1.5rem;
+    cursor: pointer;
+}
+
+input {
+    padding: 1rem 4rem;
+    border: 1px solid #847767;
+    border-radius: 4px;
+}
+
+input:active,
+input:focus {
+    border: 1px solid #847767;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+    line-height: 5rem;
+    font-size: 1.6rem;
+    color: #4c3f37;
+}
+
+.remove {
+    background-color: #d73027;
+    font-family: 'Montserrat';
+    border: none;
+    float: right;
+    clear: both;
+    padding: 1rem 3rem;
+    outline: none;
+    border-radius: 5px;
+}
+
+.remove:hover {
+    cursor: pointer;
+}
